@@ -1,0 +1,1 @@
+SELECT name AS Songs_featuring_multiple_singers FROM songs WHERE name LIKE '%feat.%';

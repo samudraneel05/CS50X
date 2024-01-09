@@ -1,0 +1,1 @@
+SELECT AVG (energy) AS Average_Energy_of_Drake_songs FROM songs WHERE artist_id = (SELECT id FROM artists WHERE name ='Drake');

@@ -1,0 +1,18 @@
+sort1 uses: Bubble sort
+
+How do you know?: The timing as recorded is higher than sort3 in case of 50000, 10000 and 5000 number sorting for random and reversed data sets, but the
+major identifying factor is the time recorded in sorted data set, where it takes much less time to sort an already sorted data set as compared to
+sort3. This is due to the fact that merge sort has a sort of an escape sequence if the data is sorted, while selection sort does not and has to run
+through the entire thing.
+
+sort2 uses: Merge sort
+
+How do you know?: The timing as recorded is consistently lowest for all data sets across the 50000, 10000 and 5000 number sorting
+regardless of whether the numbers are randomized, in reverse order, or already sorted. The time also does not vary much between
+random, reversed and sorted data, further pointing that it is merge sort being used, with time being in the order of theta(nlogn).
+
+sort3 uses: Selection sort
+
+How do you know?: The timing as recorded is lower than sort1 in case of 50000, 10000 and 5000 number sorting for random and reversed data sets,
+but the major identifying factor is the time recorded in sorted data set, where it takes much more time to sort an already sorted data set as compared to
+sort1. This is due to the fact that selection sort does not have a sort of an escape sequence as bubble sort does.
