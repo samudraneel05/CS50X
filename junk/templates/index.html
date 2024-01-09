@@ -1,0 +1,161 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+      <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+      <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+      </div>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p class="w3-center w3-large">Key features of me and my work</p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-quarter">
+        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Artistic</p>
+        <p>Want a home styled beautifully? Done. If everything's not looking pretty and perfect, it can be made to be better.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Passionate</p>
+        <p>I put in my heart and soul into everything I do. Nothing half hearted, nothing shoddy, nothing but the best.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Focused</p>
+        <p>Armed with the power of clarity and imagination, I am capable of weaving magic into your homes and surroundings.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Supportive</p>
+        <p>Call me 2 o'clock at night? I'll be there. I'm always happy to help to give every individual project the care it needs.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Promo Section - "I know design" -->
+  <div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>I know design.</h3>
+        <p>Architecture is something I am incredibly passionate about.<br>All the more reason to trust me when I say I know what I'm doing.</p>
+        <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View My Works</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="https://img.freepik.com/free-photo/living-room-with-cream-color-fabric-armchair-plants-empty-green-wall-background_41470-4746.jpg?w=900&t=st=1661182352~exp=1661182952~hmac=31c98b502b74e34ed434bc788276117d28a656a1ae07d4a31fafcbe207a21b73" alt="Fabric armchair" width="700" height="394">
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile Section -->
+  <div class="w3-container" style="padding:64px 16px" id="profile">
+    <h3 class="w3-center">ME</h3>
+    <p class="w3-center w3-large">Web designer extraordinaire</p>
+    <div class="w3-row-padding" style="margin-top:64px;">
+      <div class="w3-col l3 m6 w3-margin-bottom" style= "margin-left:512px;">
+        <div class="w3-card">
+          <img src="https://lh3.googleusercontent.com/WlDXVEjZh5WIf_CgIlq-Gk188NN51ObrpL52byw6KHZYOXKJnbROYZEiMwCu10AdbZtYEebvF-MYj8uSXHMXEIZfN-twVYdDRgA4Fe6nZA9j3Ce-MrfwO5-10LkPIcLMU2jcSn6eYQk=w2400" alt="Samudraneel Sarkar" style="width:100%">
+          <div class="w3-container">
+            <h3>Samudraneel Sarkar</h3>
+            <p class="w3-opacity">Web Designer</p>
+            <p>I spend all my time glued to the computer. And for the last time, no, I'm not married to it. Got programming issues? Backend, frontend, UI, UX- I can handle them all.</p>
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Work Section -->
+  <div class="w3-container w3-light-grey" style="padding:64px 16px" id="work">
+    <h3 class="w3-center">MY WORK</h3>
+    <p class="w3-center w3-large">What I've designed so far:</p>
+
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/premium-photo/cabinet-tv-white-wall-living-room-with-armchair-minimal-design-3d-rendering_41470-3830.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Living room">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/premium-photo/mockup-photo-frame-wall-with-concrete-outdoor-living-area_41470-4713.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Outdoors">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/premium-photo/sofa-modern-empty-room-with-wooden-wall-3d-rendering_41470-4416.jpg?w=1480" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sofa">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/free-photo/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall_41470-3721.jpg?w=1480&t=st=1661184840~exp=1661185440~hmac=907839ba734d5dfe63b1b542ae7edc59dcbcdf64b55fee110d20b9a141702166" height="245" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Sunlit Room">
+      </div>
+    </div>
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/free-photo/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering_43614-802.jpg?w=1800&t=st=1661185438~exp=1661186038~hmac=dbffcaa636a276d949a24db38c7b9ab121cfd39c9b090befd9937fe1bdd73883" width="500" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Living Room">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/premium-photo/living-room-interior-with-blue-velvet-armchair-dark-wall_41470-979.jpg?w=2000" width="500" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Goth Entryway">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/premium-photo/bright-cozy-modern-living-room-interior-have-sofa-lamp-with-white-wall_41470-1045.jpg?w=2000" width="500" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cosy Studio">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="https://img.freepik.com/free-photo/living-room-loft-industrial-style-with-blue-sofa-empty-concrete-wall-3d-rendering_41470-3581.jpg?w=2000&t=st=1661184905~exp=1661185505~hmac=18437825638ec7b5aad2e600c7e767d106f0aa6e85e19fd69075c37863546b3d" width="500" height="200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Grand Hall">
+      </div>
+    </div>
+  </div>
+
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+          <img id="img01" class="w3-image">
+          <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+      </div>
+
+  <!-- Skills Section -->
+  <div class="w3-container w3-padding-64">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>My Skills:</h3>
+        <p>Versatility is something that I have embraced, and as such, my skills are multifaceted<br></p>
+        <p>Here are some of them:</p>
+      </div>
+      <div class="w3-col m6">
+        <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Coding</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Art</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+</script>
+
+{% endblock %}

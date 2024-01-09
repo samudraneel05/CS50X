@@ -1,0 +1,32 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-photo/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering_41470-3902.jpg?w=1480&t=st=1661179456~exp=1661180056~hmac=f65216f395fb56a8cd95fb69fbc0a314834d1dcf1e637a43097a13b1fe8b1e2f");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://media.architecturaldigest.com/photos/630e6e76f545247e868c7eb9/master/w_1600,c_limit/_E6A1566-Edit_HighRes.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://studios.imgix.net/img/hero-images/assets/uploads/WattPlaza_PhotoByBruceDamonte_09_HERO.jpg?w=2800&q=80");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
